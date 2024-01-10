@@ -1,0 +1,175 @@
+* {
+    max width: 100%;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    align-items: center;
+
+
+
+}
+
+.elysium {
+    font-size: 30px;
+}
+
+body {
+
+
+
+
+
+    background-size: ;
+    background-color: gray;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    height: 1000px;
+}
+
+main {
+    background-color: whitesmoke;
+    justify-content: center;
+    box-sizing: content-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    gap: 10px;
+    height: 800px;
+}
+
+h1 {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+h6 {
+    padding-bottom: 2%;
+    margin-top: 0%;
+    text-align: center;
+    margin-top: 0%;
+}
+
+
+
+.eternal {
+    position: absolute;
+    left: 60px;
+    color: white;
+    bottom: 2px;
+    font-size: 12px;
+}
+.sparkling{
+    position: absolute;
+    left: 380px;
+    color: white;
+    bottom: 2px;
+    font-size: 12px;
+
+}
+.timeless {
+    position: absolute;
+    left: 700px;
+    color: white;
+    bottom: 2px;
+    font-size: 12px;
+}
+
+article {
+    display: flex;
+
+    gap: 2%;
+    justify-content: center;
+
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 150px;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+}
+
+
+
+button {
+
+    border-radius: 30%;
+}
+
+
+footer {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 20px;
+
+
+
+
+
+
+
+
+}
+
+
+.alsoszoveg {
+    padding-top: 10%;
+    padding-right: 50px;
+    width: 60000px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        max-width: 20%;
+
+
+
+    }
+}
+
+.register,
+.more {
+    background-color: black;
+    color: white;
+}
+
+
+
+.kepnegyedik {
+    img {
+        width: 400px;
+        height: 400px;
+        filter: grayscale(100%);
+
+
+
+
+    }
+
+    padding-left: 50px;
+    height: 500px;
+
+
+
+}

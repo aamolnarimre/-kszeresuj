@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    
+    <header>
+        <menu1> ELYSIUM</menu>
+        <menu2>Custom Design</menu2>
+        <menu3>Wedding </menu>
+            <menu4>Engagements</menu>
+        <menu5>Gifts</menu>
+
+        <button> Log in </button>
+        <button> Register </button>
+    </header>
+    <h1> Welcome to Elysium</h1>
+    <h6>where your precious moments shine bright
+
+        <div class="haromkep">
+            <img src="gyuru1.jpg" alt="gyuru1">
+            <img src="gyuru2.jpg" alt="gyuru2">
+            <img src="gyuru3.jpg" alt="gyuru3">
+        </div>
+
+        <div class="gyuru1"></div>Eternal Love €1.499.99
+
+        <div class="gyuru2">Sparkling Serenity €11.799.99</div>
+
+
+        <div class="gyuru3"> Timeless Beauty €2.199.99</div>
+
+        <article>
+            <img src="gyuru4.jpg" alt="gyuru4">
+            <h3>Costumize Your Ring</h3>
+            <p> With your online design tool,you have the power to personalize this
+                ring to your heart's desire. Choose the diamond cud, the metal type,
+                and even add engravings to make it uniquely yours. Create the Ring
+                of your dreams with a few simple clicks.</p>
+
+            <p>Starting price at <b>€1.999.99</b></p>
+            <button>More details</button>
+        </article>
+
+
+
+
+</body>
+
+</html>
+
+
+
+*{
+
+}
+body{
+    box-sizing: border-box;
+    max-width: 800px;
+    background-color:whitesmoke ;
+    margin-top: 100px, gray ;
+    margin-bottom: 100px, gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 5%;
+    margin-left: 40%, blue
+    ;
+    margin-right: 40%,blue;
+    
+    
+}
+.haromkep{
+    display: flex;
+    gap: 2%;
+   
+}
+img{
+    width: 33.3%;
+    
+    
+}
+header{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
